@@ -1,19 +1,15 @@
-# Se trata de tomar una lista de tres valores desordenados y producir una salida en un orden creciente.
+# Archivo: tres_valores.py
+# Fecha: 08/04/2025
+#Proy.: estudio de algoritmos
+#
+# Ordenar crecientemente una lista de tres valores.
+# Existe un error, ya que según los valores, puede cambiar 
+# dos que entre ellos habia que cambiar, pero genera mal el orden 
+# en los posteriores.
 
-n = [65, 23, 10]  
-if n[0] > n[1]:
-    a = n[0]
-    n[0] = n[1]
-    n[1] = a
+n = []
 
-if n[1] > n[2]:
-    a = n[1]
-    n[1] = n[2]
-    n[2] = a
+# Bucle para tomar datos del teclado y guardarlos en la variable n del tipo lista
+for i in range(3):
+    n.appened (int(input)(()))) #append es un método de las listas 
 
-if n[0] > n[1]:
-    a = n[0]
-    n[0] = n[1]
-    n[1] = a
-
-print(n)
